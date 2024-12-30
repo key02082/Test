@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Studio - Discord Rules</title>
+    <style>
+        /* 기본 설정 */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1c1c1c;
+            color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 컨테이너 */
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #2b2b2b;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* 제목 스타일 */
+        h1, h2, h3 {
+            color: #00adee;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-top: 30px;
+            border-bottom: 2px solid #444;
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            font-size: 1.4rem;
+            margin-top: 20px;
+        }
+
+        /* 규칙 리스트 스타일 */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+
+        ul li::before {
+            content: "• ";
+            color: #00adee;
+        }
+
+        /* 강조 표시 */
+        .highlight {
+            color: #ff6f61;
+            font-weight: bold;
+        }
+
+        /* 하단 주석 */
+        .footer {
+            text-align: center;
+            font-size: 0.9rem;
+            margin-top: 30px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Developer Studio - Discord Rules</h1>
+        <h2>1. General Rules</h2>
+        <ul>
+            <li>All members must be at least <span class="highlight">13 years old</span> to join the server.</li>
+            <li>Follow Discord's <a href="https://discord.com/terms" target="_blank" style="color: #00adee;">Terms of Service</a> and <a href="https://discord.com/guidelines" target="_blank" style="color: #00adee;">Community Guidelines</a>.</li>
+            <li>Each user is allowed to have only one account in the server. Multiple accounts are prohibited.</li>
+            <li>Users with <span class="highlight">99 warnings</span> will be permanently banned.</li>
+        </ul>
+
+        <h2>2. Text Channel Rules</h2>
+        <h3>2.1 Respectful Communication</h3>
+        <ul>
+            <li>No offensive language, personal attacks, or harassment.</li>
+            <li>Respect the opinions of others, even if you disagree.</li>
+        </ul>
+        <h3>2.2 Channel-Specific Usage</h3>
+        <ul>
+            <li>Use channels for their intended purposes (e.g., `#general` for casual chats).</li>
+            <li>Repeatedly posting off-topic content may result in warnings.</li>
+        </ul>
+
+        <h3>2.3 No Spamming or Advertising</h3>
+        <ul>
+            <li>Do not send spam messages or flood the chat.</li>
+            <li>External advertisements require admin approval.</li>
+            <li>Posting phishing links will result in an immediate ban.</li>
+        </ul>
+
+        <h2>3. Voice Channel Rules</h2>
+        <h3>3.1 Appropriate Behavior</h3>
+        <ul>
+            <li>No loud noises or disruptive behavior during voice chats.</li>
+            <li>Recording or streaming without permission is prohibited.</li>
+        </ul>
+        <h3>3.2 Minimize Background Noise</h3>
+        <ul>
+            <li>Use a proper headset and microphone to ensure clear communication.</li>
+            <li>Excessive background noise may result in removal from the channel.</li>
+        </ul>
+
+        <h2>4. Media and Content</h2>
+        <ul>
+            <li>No sharing of offensive or illegal content.</li>
+            <li>Memes and humor must be appropriate and posted in designated channels.</li>
+        </ul>
+
+        <h2>5. Administration</h2>
+        <ul>
+            <li>Admins reserve the right to enforce rules and resolve disputes fairly.</li>
+            <li>Users can report violations to admins with proper evidence.</li>
+        </ul>
+
+        <div class="footer">
+            &copy; 2024 Developer Studio. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
